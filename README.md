@@ -1,5 +1,5 @@
 # Athlete Mention Analyzer
-The Athlete Mention Analyzer is a Python script that extracts data about athletes from a text file, counts how many times they were mentioned, and calculates a sentiment score for the mentions. The script has two versions: linkedIn.py and twitter.py, depending on the source of the data.
+The Athlete Mention Analyzer is a Python script that extracts data about athletes from a text file, counts how many times they were mentioned, and calculates a sentiment score for the mentions. The script has two versions: linkedIn.py and twitter.py, depending on the source of the data. You can find each file in their respective branches not in the main branch.
 
 Usage
 To use the script, follow these steps:
