@@ -5,19 +5,21 @@ Usage
 To use the script, run the following command:
 
 `python athlete_mention_analyzer.py input_file output_file`
+
 where input_file is the path to the text file containing the mentions, and output_file is the path to the output file where the results will be saved.
 
 # Input format
 The input file should be a plain text file containing one mention per line, with the following format:
 
 `<athlete name>, <mention text>`
+
 where <athlete name> is the name of the athlete being mentioned, and <mention text> is the text of the mention.
 
 For example:
 
-```LeBron James, LeBron James scored 35 points in the game.
+`LeBron James, LeBron James scored 35 points in the game.
 Tom Brady, Tom Brady led his team to victory.
-LeBron James, LeBron James is one of the greatest players of all time.```
+LeBron James, LeBron James is one of the greatest players of all time.`
 
 # Output format
 The output file will be a CSV file containing the following columns:
@@ -26,6 +28,7 @@ athlete: the name of the athlete
 count: the number of times the athlete was mentioned
 sentiment: the sentiment score for the mentions (ranging from -1 to 1)
 For example:
+  
 `athlete,count,sentiment
 LeBron James,2,0.8
 Tom Brady,1,0.5`
@@ -33,8 +36,9 @@ Tom Brady,1,0.5`
 # Dependencies
 The script requires the following Python packages:
 
-```pandas
-textblob```
+`pandas
+textblob`
+  
 You can install them using pip:
 `pip install pandas textblob`
 
