@@ -17,30 +17,32 @@ where <athlete name> is the name of the athlete being mentioned, and <mention te
 
 For example:
 
-`* LeBron James, LeBron James scored 35 points in the game.
+* LeBron James, LeBron James scored 35 points in the game.
 * Tom Brady, Tom Brady led his team to victory.
-* LeBron James, LeBron James is one of the greatest players of all time.`
+* LeBron James, LeBron James is one of the greatest players of all time.
 
 # Output format
 The output file will be a CSV file containing the following columns:
 
-athlete: the name of the athlete
-count: the number of times the athlete was mentioned
-sentiment: the sentiment score for the mentions (ranging from -1 to 1)
+1. athlete: the name of the athlete
+2. count: the number of times the athlete was mentioned
+3. sentiment: the sentiment score for the mentions (ranging from -1 to 1)
 For example:
   
-`athlete,count,sentiment
-LeBron James,2,0.8
-Tom Brady,1,0.5`
+* athlete,count,sentiment
+* LeBron James,2,0.8
+* Tom Brady,1,0.5
 
 # Dependencies
 The script requires the following Python packages:
 
 `pandas
+  
 textblob`
   
 You can install them using pip:
-`pip install pandas textblob`
+`pip install 
+ pandas textblob`
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
