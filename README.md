@@ -38,6 +38,7 @@ The script requires the following Python packages:
 
 1. `pandas`
 2. `textblob`
+3. `selenium`
   
 You can install them using pip:
 * `pip install`
