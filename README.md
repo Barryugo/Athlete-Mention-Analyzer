@@ -17,9 +17,9 @@ where <athlete name> is the name of the athlete being mentioned, and <mention te
 
 For example:
 
-`*LeBron James, LeBron James scored 35 points in the game.
-*Tom Brady, Tom Brady led his team to victory.
-*LeBron James, LeBron James is one of the greatest players of all time.`
+`* LeBron James, LeBron James scored 35 points in the game.
+* Tom Brady, Tom Brady led his team to victory.
+* LeBron James, LeBron James is one of the greatest players of all time.`
 
 # Output format
 The output file will be a CSV file containing the following columns:
