@@ -1,13 +1,12 @@
 # Athlete Mention Analyzer
-This Python script extracts data about athletes from a text file, counts how many times they were mentioned, and calculates a sentiment score for the mentions.
+The Athlete Mention Analyzer is a Python script that extracts data about athletes from a text file, counts how many times they were mentioned, and calculates a sentiment score for the mentions. The script has two versions: linkedIn.py and twitter.py, depending on the source of the data.
 
 Usage
-To use the script, run the following command:
+To use the script, follow these steps:
 
-`python linkedIn.py`
-`python twitter.py`
-
-where input_file is the path to the text file containing the mentions, and output_file is the path to the output file where the results will be saved.
+Run the command python `linkedIn.py` or `python twitter.py` depending on the source of the data.
+Enter the path to the input file when prompted.
+Enter the path to the output file when prompted.
 
 # Input format
 The input file should be a plain text file containing one mention per line, with the following format:
@@ -37,12 +36,12 @@ For example:
 # Dependencies
 The script requires the following Python packages:
 
-`pandas`
-`textblob`
+1. `pandas`
+2. `textblob`
   
 You can install them using pip:
-`pip install`
-`pandas textblob`
+* `pip install`
+* `pandas textblob`
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
