@@ -37,12 +37,15 @@ For example:
 The script requires the following Python packages:
 
 1. `pandas`
-2. `textblob`
-3. `selenium`
+2. `selenium`
+3. `textblob`
+4. `nltk`
+
   
 You can install them using pip:
 * `pip install`
-* `pandas textblob`
+* `pandas, textblob, nltk, selenium`
+
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
