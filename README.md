@@ -4,7 +4,8 @@ This Python script extracts data about athletes from a text file, counts how man
 Usage
 To use the script, run the following command:
 
-`python athlete_mention_analyzer.py input_file output_file`
+`python linkedIn.py`
+`python twitter.py`
 
 where input_file is the path to the text file containing the mentions, and output_file is the path to the output file where the results will be saved.
 
@@ -36,13 +37,12 @@ For example:
 # Dependencies
 The script requires the following Python packages:
 
-`pandas
-  
-textblob`
+`pandas`
+`textblob`
   
 You can install them using pip:
-`pip install 
- pandas textblob`
+`pip install`
+`pandas textblob`
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
