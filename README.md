@@ -13,7 +13,7 @@ The input file should be a plain text file containing one mention per line, with
 
 `<athlete name>, <mention text>`
 
-where <athlete name> is the name of the athlete being mentioned, and <mention text> is the text of the mention.
+where `<athlete name>` is the name of the athlete being mentioned, and `<mention text>` is the text of the mention.
 
 For example:
 
