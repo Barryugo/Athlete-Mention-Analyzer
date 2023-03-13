@@ -16,9 +16,9 @@ try:
     # wait for the page to load with random interval
     time.sleep(random.randint(3, 5))
     driver.find_element(By.ID, 'session_key').send_keys(
-        'equivalent121@gmail.com')
+        'your email'')
     time.sleep(random.randint(1, 3))  # wait with random interval
-    driver.find_element(By.ID, 'session_password').send_keys('nweke1000')
+    driver.find_element(By.ID, 'session_password').send_keys('*****00')
     time.sleep(random.randint(1, 3))  # wait with random interval
     # click the sign-in button
     driver.find_element(By.CLASS_NAME, 'sign-in-form__submit-button').click()
