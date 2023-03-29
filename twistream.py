@@ -10,4 +10,4 @@ if st.button("Scrape"):
 
   user = next(sntwitter.TwitterUserScraper(account_name).get_items())
 
-st.write(f"{account_name} has {user.user.followersCount} followers and {user.user.favouritesCount} likes and {user.user.friendsCount} people.")
+st.write(f"{account_name} has {user.user.followersCount} followers and {user.user.favouritesCount} likes and follows {user.user.friendsCount} people.")
